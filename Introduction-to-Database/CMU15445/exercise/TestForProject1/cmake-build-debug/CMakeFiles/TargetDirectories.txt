@@ -1,0 +1,3 @@
+/mnt/f/Videos/CMU15445/exercise/TestForProject1/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/mnt/f/Videos/CMU15445/exercise/TestForProject1/cmake-build-debug/CMakeFiles/TestForProject1.dir
+/mnt/f/Videos/CMU15445/exercise/TestForProject1/cmake-build-debug/CMakeFiles/edit_cache.dir

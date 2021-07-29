@@ -1,0 +1,18 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/f/Videos/CMU15445/exercise/testForProject0/main.cpp
+p0_starter.h
+/mnt/f/Videos/CMU15445/exercise/testForProject0/p0_starter.h
+
+/mnt/f/Videos/CMU15445/exercise/testForProject0/p0_starter.h
+utility
+-
+memory
+-
+
