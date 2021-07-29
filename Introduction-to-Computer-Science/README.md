@@ -7,7 +7,7 @@
 * 教材
   * [Introduction to Computation and Programming Using Python](./MIT-60001/Resources/Introduction-to-Computation-and-Programming-Using-Python.pdf)
 * 视频
-  * [Bilibili](https://www.bilibili.com/video/BV1Kx411f7bL)
+  * [Bilibili](https://www.bilibili.com/video/BV1Wt411J7Yq)
   * [YouTube](https://www.youtube.com/watch?v=nykOeWgQcHM&list=PLUl4u3cNGP63WbdFxL8giv4yhgdMGaZNA&ab_channel=MITOpenCourseWare)
   * [edX](https://www.edx.org/course/introduction-to-computer-science-and-programming-7)
 
