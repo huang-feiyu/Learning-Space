@@ -5,6 +5,7 @@
 
 * [课程资源打包](./MIT-60001/Resources/6-0001-fall-2016.zip)
 * 教材
+  * [Python编程导论](./MIT-60001/Resources/Python编程导论.pdf)
   * [Introduction to Computation and Programming Using Python](./MIT-60001/Resources/Introduction-to-Computation-and-Programming-Using-Python.pdf)
 * 视频
   * [Bilibili](https://www.bilibili.com/video/BV1Wt411J7Yq)
@@ -23,7 +24,7 @@ MIT-60001
 <<<<<<< HEAD
 ├── Course # :  `#` a.k.a. number
 
-│      ├── Course#\_note.md: 笔记
+│      ├── Course#\_note.md: 笔记, 由于课程太简单，笔记不会很详细
 
 │      └──  Implements: 代码的实现
 
@@ -36,6 +37,10 @@ MIT-60001
 ### 课程代码实现
 
 课程使用Python的版本是Python3.5，我不会将所有的代码全部写一遍——因为上这个课程的时间太紧张了。如果我写了代码的话，会在这里附上实现是否成功。
+
+###### Pset 0
+
+![Pset 0](./MIT-60001/image/img-ps0.png)
 
 ### 课程日历
 
