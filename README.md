@@ -17,6 +17,7 @@
 * Other：没有上过的课程或者其他的学习资料
   * RegEx-Learning：正则表达式学习笔记
   * Awesome-Database-Learning：PingCAP开源的数据库学习指导
+  * Bash-Learning: Bash&Linux学习笔记
   * 
 
 ### 一些说明

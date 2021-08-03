@@ -38,9 +38,24 @@ MIT-60001
 
 课程使用Python的版本是Python3.5，我不会将所有的代码全部写一遍——因为上这个课程的时间太紧张了。如果我写了代码的话，会在这里附上实现是否成功。
 
-###### Pset 0
+##### Pset 0
 
-![Pset 0](./MIT-60001/image/img-ps0.png)
+![0](./MIT-60001/image/img-ps0.png)
+
+##### Pset 1
+###### Problem A
+![1-1](./MIT-60001/image/img-ps1_1-1.png)
+![1-2](./MIT-60001/image/img-ps1_1-2.png)
+
+###### Problem B
+![2-1](./MIT-60001/image/img-ps1_2-1.png)
+![2-2](./MIT-60001/image/img-ps1_2-2.png)
+![2-3](./MIT-60001/image/img-ps1_2-3.png)
+
+###### Problem C
+![3-1](./MIT-60001/image/img-ps1_3-1.png)
+![3-2](./MIT-60001/image/img-ps1_3-2.png)
+![3-3](./MIT-60001/image/img-ps1_3-3.png)
 
 ### 课程日历
 
