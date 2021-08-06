@@ -8,12 +8,15 @@
 
 ### 课程
 
-* MIT
+* MIT(麻省理工学院)
   * Introduction to Computer Science：计算机科学第一节课，用Python3.5编程 (Learning)
   * The Missing Semester of Your CS Education：计算机科学课程中缺少的课程，很不错 (完结)
   * Introduction to Algorithms：算法导论课程 (尚未开始)
-* CMU
+* CMU(卡内基梅隆大学)
   * Introduction to Database：数据库第一课，有点难 (待续未完)
+* Probability-and-Statistics
+  * NTU(国立台湾大学)
+    * 概率一
 * Other：没有上过的课程或者其他的学习资料
   * RegEx-Learning：正则表达式学习笔记
   * Awesome-Database-Learning：PingCAP开源的数据库学习指导
