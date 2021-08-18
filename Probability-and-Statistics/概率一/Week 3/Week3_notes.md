@@ -1,3 +1,5 @@
+[TOC]
+
 ### [第三周](https://www.coursera.org/learn/prob1/home/week/3)
 
 [LaTeX数学符号表示](http://mohu.org/info/symbols/symbols.htm)
