@@ -111,7 +111,7 @@ $p_X(x)\overset{def}{=}P(X=x)$
 
 $$
 对于任何x:
-\\ F_X(x)=\sum_{n=-\infin}^{\lfloor x\rfloor}p_X(n)
+\\ F_X(x)=\sum_{n=-\infty}^{\lfloor x\rfloor}p_X(n)
 \\ p_X(x)=F_X(x^+)-F_X(x^-)
 $$
 
