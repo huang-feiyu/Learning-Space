@@ -44,9 +44,9 @@ $A_1, A_2……互斥$​ $\Rightarrow$​ $P(A_1\cup A_2\cup ...) \\ =P(A_1)+P(
 * $P(\phi)=0$​ 
   * 公理三
 
-$Prove: S\cap \phi = \phi \to S,\ \phi互斥\\加以S=S\cup\phi$
+$Prove: S\cap \phi = \phi \to S,\ \phi互斥\\ 加以S=S\cup\phi$
 
-$\Rightarrow P(S)=P(S\cup\phi)=P(S)+P(\phi)\\P(\phi)=0$
+$\Rightarrow P(S)=P(S\cup\phi)=P(S)+P(\phi)\\ P(\phi)=0$
 
 下面不再加以证明，列举出证明利用的公理
 
@@ -63,18 +63,18 @@ $\Rightarrow P(S)=P(S\cup\phi)=P(S)+P(\phi)\\P(\phi)=0$
 
 $若 C_1, C_2,...,C_3互斥且C_1\cup C_2 \cup ... \cup C_n = S$​
 
-$则对于任何事件A: \\P(A)=P(A\cap C_1)+P(A\cap C_2) + ... + P(A \cap C_n) $
+$则对于任何事件A: \\ P(A)=P(A\cap C_1)+P(A\cap C_2) + ... + P(A \cap C_n) $
 
 ###### Boole's 不等式
 
 $$
-对任意n个事件A_1, A_2, ..., A_n而言，\\P({\cup}^n_{i=1}A_i \le \sum^n_{i=1}P(A_i)
+对任意n个事件A_1, A_2, ..., A_n而言，\\ P({\cup}^n_{i=1}A_i \le \sum^n_{i=1}P(A_i)
 $$
 
 ###### Bonferroni's 不等式
 
 $$
-对任意n个事件A_1, A_2, ..., A_n而言，\\P({\cap}^n_{i=1}A_i \ge 1- \sum^n_{i=1}P(A_i^C)
+对任意n个事件A_1, A_2, ..., A_n而言，\\ P({\cap}^n_{i=1}A_i \ge 1- \sum^n_{i=1}P(A_i^C)
 $$
 
 #### 条件概率
@@ -114,16 +114,11 @@ $\Rightarrow P(X\ |Y)=\frac{P(X\cap Y)}{P(Y)}$​​​​​
 ##### Total Probability定理
 
 $$
-若C_1, C_2,...,C_n互斥且C_1\cup C_2 \cup ... \cup C_n = S \\则对于任意事件A，我们有：\\P(A)=P(A|C_1)P(C_1)+P(A|C_n)P(C_n)+...+P(A|C_n)P(C_n)
+若C_1, C_2,...,C_n互斥且C_1\cup C_2 \cup ... \cup C_n = S \\ 则对于任意事件A，我们有：\\ P(A)=P(A|C_1)P(C_1)+P(A|C_n)P(C_n)+...+P(A|C_n)P(C_n)
 $$
 
 ##### 贝氏定理
 
 $$
-若C_1, C_2, ... , C_n 互斥且有C_1\cup C_2 \cup ... \cup C_n = S,  则对于任何事件A，我们有：\\P(C_j|A)=\frac{P(A|C_j)P(C_j)}{P(A|C_1)P(C_1)+P(A|C_2)P(C_2)+...+P(A|C_n)P(C_n)}
+若C_1, C_2, ... , C_n 互斥且有C_1\cup C_2 \cup ... \cup C_n = S,  则对于任何事件A，我们有：\\ P(C_j|A)=\frac{P(A|C_j)P(C_j)}{P(A|C_1)P(C_1)+P(A|C_2)P(C_2)+...+P(A|C_n)P(C_n)}
 $$
-
-
-
-
-

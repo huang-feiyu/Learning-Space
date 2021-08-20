@@ -76,5 +76,3 @@ $$
   * $\frac{n!}{n_1!\cdot n_2! \cdot ...\cdot n_m!}$
   * $(x_1+x_2+...+x_m)^n$
 
-
-

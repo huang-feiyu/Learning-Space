@@ -6,9 +6,13 @@
 
 ### 课程
 
-* [頑想學概率：機率一](https://www.coursera.org/learn/prob1#syllabus): NTU
-* [頑想學概率：機率二](https://www.coursera.org/learn/prob2): NTU
-* [Introduction to Statistics](https://www.udacity.com/wiki/st101/downloads): Udacity
-* [Statistics One](https://www.my-mooc.com/en/mooc/stats1/): Princeton University
+* 简单入门课程
+  * [頑想學概率：機率一](https://www.coursera.org/learn/prob1#syllabus): NTU
+  * [頑想學概率：機率二](https://www.coursera.org/learn/prob2): NTU
+  * ~~[Introduction to Statistics](https://www.udacity.com/wiki/st101): Udacity~~ 课程资料难以有规律学习，故舍弃。另外，我之前对于Python的学习因为这门课程告一段落。
+  * [Statistics One](https://www.youtube.com/playlist?list=PLycnP7USbo1V3jlyjAzWUB201cLxPq4NP): Princeton 
+    * 该课程本来在Coursera上面有，后来被干掉了，于是只能够在YouTube上面学习。
+    
 
 [参考来源](https://zhuanlan.zhihu.com/p/108439308)
+

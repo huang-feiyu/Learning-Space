@@ -59,7 +59,7 @@ Cumulative Distribution Function
 ###### 概念
 
 $$
-对于任何一个R.V.\ X，我们定义\\其CDF为函数：\\
+对于任何一个R.V.\ X，我们定义\\ 其CDF为函数：\\
 F_X(x)\overset{def}{=}P(X\le x)
 $$
 
@@ -111,8 +111,8 @@ $p_X(x)\overset{def}{=}P(X=x)$
 
 $$
 对于任何x:
-\\F_X(x)=\sum_{n=-\infin}^{\lfloor x\rfloor}p_X(n)
-\\p_X(x)=F_X(x^+)-F_X(x^-)
+\\ F_X(x)=\sum_{n=-\infin}^{\lfloor x\rfloor}p_X(n)
+\\ p_X(x)=F_X(x^+)-F_X(x^-)
 $$
 
 ###### 概率分布

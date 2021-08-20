@@ -4,9 +4,9 @@
 
 [LaTeX数学符号表示](http://mohu.org/info/symbols/symbols.htm)
 
-$CDF: \\F_X(x)=\sum_{n=-\infin}^{ \lfloor x\rfloor }p_X(x)$
+$CDF: \\ F_X(x)=\sum_{n=-\infinity}^{ \lfloor x\rfloor }p_X(x)$
 
-$PMF:\\p_X(x)\overset{def}{=}P(X=x)$
+$PMF:\\ p_X(x)\overset{def}{=}P(X=x)$
 
 ####  离散概率分布Ⅰ
 
@@ -98,7 +98,7 @@ $X\sim POI(\lambda T)$
 * $$
   F_X(x)=
   \begin{cases}
-  \sum ^{\lfloor x \rfloor}_{n=-\infin} e^{-\mu}\cdot \frac{\mu^n}{n!},&x=0, 1, 2,\dots\\
+  \sum ^{\lfloor x \rfloor}_{n=-\infinity} e^{-\mu}\cdot \frac{\mu^n}{n!},&x=0, 1, 2,\dots\\
   0, &otherwise
   \end{cases}
   $$
@@ -107,5 +107,4 @@ $X\sim POI(\lambda T)$
 
 ![image-20210820142111565](Week5_notes.assets/image-20210820142111565.png)
 
-<font color=red>$=\frac{(\lambda T)^x}{x!}\lim _{n\to \infin}(1-\frac{\lambda T}{n})^n=\frac{(\lambda T)^x}{x!}e^{-\lambda T}$</font>
-
+<font color=red>$=\frac{(\lambda T)^x}{x!}\lim _{n\to \infinity}(1-\frac{\lambda T}{n})^n=\frac{(\lambda T)^x}{x!}e^{-\lambda T}$</font>
