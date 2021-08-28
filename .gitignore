@@ -4,3 +4,6 @@ Introduction-to-Database/CMU15445/Resources/*.pdf
 Introduction-to-Database/CMU15445/Resources/c++/*.zip
 Introduction-to-Database/CMU15445/Resources/c++/*.pdf
 
+# Obsidian
+.obsidian
+.obsidian.vimrc
