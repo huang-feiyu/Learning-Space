@@ -1,6 +1,7 @@
 # 正则表达式
-
 [Huang Blog](https://huang-feiyu.github.io/)
+
+[regex101](https://regex101.com/)
 
 Thanks to [cdoco](https://github.com/cdoco)，这是我学习正则表达式所使用的两个仓库：
 
@@ -103,19 +104,25 @@ markdown原编码更清晰。
 `{}` 用来指定字符或者一组字符可以重复的次数。
 
 > "[0-9]{2,3}" => The number was 9.[999]()7 but we rounded it off to [10].0.
+
 上面的正则表达式用来匹配三位或者两位连续的数字。
 
 > "[0-9]{2,}" => The number was 9.[9997]() but we rounded it off to [10].0.
+
 上面的正则表达式用来匹配两位及以上的连续的数字。
 
-> "[0-9]{2,3}" => The number was 9.[99]()[97]() but we rounded it off to [10].0.
-上面的正则表达式用来匹配两位连续的数字, 看markdown编码更清楚。
+> "[0-9]{2,3}?" => The number was 9.[99]()[97]() but we rounded it off to [10].0.
+
+`{2,3}?`: 尽可能少地匹配；上面的正则表达式用来匹配两位连续的数字, 看markdown编码更清楚。
+
+
 
 ### 2.5 字符组
 
 字符组是一组写在`()`的子模式。如果把`{some_number}`放在一个字符之后，会重复前一个字符。如果把`{some_number}`放在字符组之后会重复整个字符组。
 
 > "(c|g|p|v)ar" => The [car]() is [par]()ked in the [gar]()age.
+
 上面的正则表达式匹配car, gar, par, var.
 
 ### 2.6  分支结构
