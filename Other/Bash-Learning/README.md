@@ -1,14 +1,11 @@
 ---
-layout:     post
 title:      Notes-of-Bash
 subtitle:   Bash学习笔记
-date:       2021-08-03
+date:       2021-10-30
 author:     Huang
-header-img: img/post_bg_xiaoyin_and_i.jpg
-catalog: true
-tags:
-   - Programming
 ---
+
+[TOC]
 
 ### Bash学习笔记
 
@@ -31,7 +28,7 @@ tags:
 set editing-mode vi
 ```
 
-使用vim可以更加迅速
+使用vim可以更加迅速，推荐使用zsh的vi-mode
 
 * `ctrl+l`: 清屏
 * `ctrl+c`: 中止
@@ -41,13 +38,6 @@ set editing-mode vi
 * `ctrl+k`: 删除光标后所有
 * `ctrl+d`: 关闭shell会话
 * `ctrl+a`: 回到行首
-* `Ctrl + j`：等同于回车键（LINEFEED）
-* `Ctrl + m`：等同于回车键（CARRIAGE RETURN）
-* `Ctrl + o`：等同于回车键，并展示操作历史的下一个命令
-* `Ctrl + v`：将下一个输入的特殊字符变成字面量，比如回车变成`^M`
-* `Ctrl + [`：等同于 ESC
-* `Alt + .`：插入上一个命令的最后一个词
-* `Alt + _`：等同于`Alt + .`
 
 ###### 模式扩展
 
@@ -65,7 +55,7 @@ set editing-mode vi
   * {start..end..step}: 指定步长
 * `$`: 变量扩展、子命令扩展`$()`、算术扩展`$(())`
 * `[[:class:]]`: 字符类扩展
-* `shopt`：可以调整bash行为
+* `shopt`：可以调整bash行为 (zsh无法使用)
   * -s: 打开
   * -u: 关闭
   * shopt [optionname]: 查询参数打开还是关闭
@@ -179,14 +169,160 @@ echo 'hello world' # 注释
   * `$#`：参数的总数。
   * `$@`：全部的参数，参数之间使用空格分隔。
   * `$*`：全部的参数，参数之间使用变量`$IFS`值的第一个字符分隔，默认为空格，但是可以自定义。
+  * `$?`: 前一个命令返回值
+  
+* `shift`命令：删除第一个参数
 
-* `shift`命令：改变脚本参数
+* `getopts`: 用于脚本内部，可以解析复杂的脚本命令行参数。通常与`while`循环一起使用，去除脚本所有带有前置连词线`-`的参数
+
+  ```bash
+  getopts optstring name
+  #       连词线参数  存储参数的变量名
+  ```
+* `--`配置项参数终止符
+
+###### `read`命令
+* 读入用户输入的值，设置为一个变量，方便后续使用
+* 参数
+* `IFS`变量: 修改`read`的分隔标志
+
+
+###### 条件判断
+```bash
+# if
+if commands; then
+  commands
+[elif commands; then
+  commands...]
+[else 
+  commands]
+fi
+
+# test, if结构的判断条件一般使用test
+  # 文件判断
+  # 字符串判断
+  # 整数判断
+  # 正则判断
+  # 逻辑判断 AND(&& -a) OR(|| -o) NOT(!)
+  # 算术判断 ((...))
+  # 普通命令逻辑运算
+# 写法一
+test expression
+# 写法二
+[ expression ]
+# 写法三
+[[ expression ]]
+
+# case结构，可使用通配符
+case expression in
+  pattern )
+    commands ;;
+  pattern )
+    commands ;;
+  ...
+esac
+```
+
+###### 循环
+```bash
+# while循环
+while condition; do
+  commands
+done
+
+# until循环
+until condition; do
+  commands
+done
+
+# for...in循环
+for variable in list
+do
+  commands
+done
+
+# for循环
+for (( expression1; expression2; expression3)); do
+  commands
+done
+
+# 提供了break, continue的类c用法
+
+# select结构，生成简单菜单
+select name
+[in list]
+do
+  commands
+done
+```
+
+###### 函数
+```bash
+# 第一种
+fn() {
+  # codes
+  # 可定义return
+}
+
+# 第二种
+function fn() {
+  # codes
+  # 可定义return
+}
+
+# 取消一个函数
+unset -f functionName
+
+# 查看定义的所有函数
+declare -f
+
+# 查看单个函数定义
+declare -f functionName
+```
+
+###### 数组
+```bash
+# 创建三成员数组
+array[0]=val
+array[1]=val
+array[2]=val
+
+ARRAY=(value1 value2 ... valueN)
+# 等同于
+ARRAY=(
+  value1
+  value2
+  value3
+)
+
+# 读取数组
+echo ${array[i]}
+echo ${array[@]}
+echo ${array[*]}
+
+# 数组长度
+${@array[*]}
+${@array[@]}
+
+# 提取数组序号，返回成员序号
+echo ${!arr[@]}
+echo ${!arr[*]}
+
+# 提取数组元素
+${array[@]:position:length}
+
+# 追加数组元素
+foo+=(d e f)
+
+# 删除一个数组成员
+unset foo[2]
+# 删除数组
+unset ARRAY
+```
 
 ---
 
-To be continue……
+上面是非常非常简单的笔记，因为bash教程我看了很久、时间间隔很长，所以笔记并不会有任何帮助。最重要的还是去联系bash脚本编写。
 
-读不下去了
-
----
+这段学习就告一段落，后面还有很多更深入的东西需要学习，我会结合Linux一起学习的。
 

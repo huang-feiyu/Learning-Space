@@ -1,3 +1,15 @@
+---
+title:      Notes of Linux
+subtitle:   Linux学习笔记
+date:       2021-10-30
+author:     Huang
+---
+
+> 本文档笔记来自于[Frank](https://space.bilibili.com/19658621)的[Linux](https://www.yuque.com/frank-93a7b/fuck/vn5gqk)付费教程。
+> 课程非常便宜而且讲得通俗易懂，很有帮助，推荐购买学习。
+
+[TOC]
+
 # Linux Shell
 
 <a href="https://www.wangchujiang.com/linux-command">查看命令</a> 
