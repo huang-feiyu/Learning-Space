@@ -67,3 +67,9 @@ Enjoy your course.
 0. Hello
 
 ![hello](./img/hello.png)
+
+1. Percolation
+
+实在不知道怎么做了，┏┛墓┗┓...(((m -__-)m.
+
+![percolation](./img/percolation.png)

@@ -100,8 +100,6 @@ $N$ objects, $M$ operations $\Rightarrow$ $c(N+M\cdot\lg^* N)$
   * 是否存在从一个地方到另一个地方的通路
   * 判断是否导电、判断水是否渗透、社交网络
 
-[Interview](./Solutions/interview-questions-union-find.md)
-
 [Percolation](./Solutions/Percolation)
 
 ##### Analysis of Algorithms
