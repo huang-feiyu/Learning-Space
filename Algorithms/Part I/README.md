@@ -66,10 +66,14 @@ Enjoy your course.
 
 0. Hello
 
-![hello](./img/hello.png)
+<img src="./img/hello.png" alt="hello" style="zoom:50%;" />
 
 1. Percolation
 
 实在不知道怎么做了，┏┛墓┗┓...(((m -__-)m.
 
-![percolation](./img/percolation.png)
+<img src="./img/percolation.png" alt="percolation" style="zoom: 50%;" />
+
+2. Queues
+传参打印有错误，懒得改了。
+<img src="./img/queues.png" alt="queues" style="zoom:50%;" />

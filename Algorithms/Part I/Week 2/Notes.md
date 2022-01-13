@@ -67,6 +67,8 @@ Java原生库的类常常过于臃肿，我们只需要一些方法，同时经�
   * Parse expression
   * Undo operation
 
+[Queues](./Solutions/Queues)
+
 ##### Sorting Introduction
 
 `sort()` calls back `compareTo()`
