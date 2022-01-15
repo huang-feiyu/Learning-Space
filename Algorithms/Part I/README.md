@@ -77,3 +77,6 @@ Enjoy your course.
 2. Queues
 传参打印有错误，懒得改了。
 <img src="./img/queues.png" alt="queues" style="zoom:50%;" />
+
+3. Collinear Points
+<img src="./img/collinear.png" alt="hello" style="zoom:50%;" />
