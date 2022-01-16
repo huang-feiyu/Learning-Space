@@ -2,7 +2,7 @@
  * Author: Huang
  * Date: 22.01.14
  * Website: https://huang-feiyu.github.io
- * Description: FastCollinearPoints.java for algs4 homework-Queue
+ * Description: FastCollinearPoints.java for algs4 homework-CollinearPoints
  *****************************************************************/
 
 import edu.princeton.cs.algs4.In;
