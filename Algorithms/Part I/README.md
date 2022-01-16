@@ -79,4 +79,8 @@ Enjoy your course.
 <img src="./img/queues.png" alt="queues" style="zoom:50%;" />
 
 3. Collinear Points
-<img src="./img/collinear.png" alt="hello" style="zoom:50%;" />
+<img src="./img/collinear.png" alt="collinear" style="zoom:50%;" />
+
+4. 8 Puzzle
+<img src="./img/8puzzle.png" alt="8puzzle" style="zoom:50%;" />
+
