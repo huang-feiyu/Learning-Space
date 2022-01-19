@@ -84,3 +84,6 @@ Enjoy your course.
 4. 8 Puzzle
 <img src="./img/8puzzle.png" alt="8puzzle" style="zoom:50%;" />
 
+5. Kd Trees
+<img src="./img/kdtree.png" alt="kdtree" style="zoom:50%;" />
+
