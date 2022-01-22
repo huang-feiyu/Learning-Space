@@ -64,4 +64,5 @@ Enjoy your course.
 
 ##### My Solutions
 
-
+1. Word Net
+<img src="./img/wordnet.png" alt="wordnet" style="zoom:50%;" />
