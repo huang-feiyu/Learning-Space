@@ -66,3 +66,6 @@ Enjoy your course.
 
 1. Word Net
 <img src="./img/wordnet.png" alt="wordnet" style="zoom:50%;" />
+
+2. Seam Carving
+<img src="./img/seamcarving.png" alt="seamcarving" style="zoom:50%;" />
