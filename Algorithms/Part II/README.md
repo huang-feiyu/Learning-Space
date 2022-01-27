@@ -69,3 +69,7 @@ Enjoy your course.
 
 2. Seam Carving
 <img src="./img/seamcarving.png" alt="seamcarving" style="zoom:50%;" />
+
+3. Baseball Elimination
+
+<img src="./img/baseballelimination.png" alt="baseballelimination" style="zoom:50%;" />
