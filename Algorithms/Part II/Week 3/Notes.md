@@ -1,5 +1,7 @@
 # Week 3
 
+[TOC]
+
 ## Max-Flow & Min-Cut
 
 * [Min-cut](https://zh.wikipedia.org/wiki/%E6%9C%80%E5%B0%8F%E5%89%B2) Problem
@@ -124,4 +126,65 @@ memory: $40+2N$
 * Alphabets
   * Digital key: Sequence of digits over fixed alphabet
   * Radix: Number of digits $R$ in alphabet
+
+### Key-Indexed Counting
+
+* Goal: Sort an array `a[]` of $N$ integers between $0$ and $R-1$
+  1. Count frequencies of each letter using key as index
+  2. Compute frequency cumulates which specify destinations
+  3. Access cumulates using key as index to move items
+  4. Copy back into original array
+
+* Time:  $O(N)$
+
+> 后续基础
+
+### LSD String sort
+
+> 低位优先的字符串排序：从右向左以每一个位置的字符为键，用键索引排序法将字符串排序 $W$遍 
+
+* Consider characters from right to left
+* Stably sort using $d^{th}$ character as the key (using key-indexed counting)
+
+* Time: $O(2WN)$
+  * fixed-length $W$ keys
+
+### MSD String sort
+
+> Treat strings as if they had an extra char at end (smaller than any char, like `\0` in C Programming language)
+
+> 首先使用键索引法将所有字符串按照首字母排序，然后递归地将每一个首字母对应的子数组排序。
+
+* Partition array into $R$ pieces according to first character (use key-indexed counting)
+* Recursively sort all strings that start with each character (key-indexed counts delineate subarrays to sort)
+
+* Potential for disastrous performance
+
+  1. Much too slow for small subarrays
+  2. Huge number of small subarrays because of recursion
+
+  $\text{solution}$: cutoff to insertion sort for small subarrays
+
+* Time: $O(N \log_R N)$
+
+### 3-Way String quicksort
+
+* Do 3-way partitioning on the $d^{th}$ character
+
+首先根据键的首字母进行三向切分，仅在中间子数组中的下一个字符（因为键的首字母都与切分字符相等）继续递归排序。
+
+* Time: $O(1.39 N \lg N)$
+
+### Suffix arrays
+
+* input string: `abcde`
+  0. `abcde`
+  1. `bcde`
+  2. `cde`
+  3. `de`
+  4. `e`
+* Sort
+  * Sort suffixes to bring repeated substrings together
+* Longest repeated substring
+  * Given a string of $N$ characgers, find the longest repeated substring $\Rightarrow$ Use suffix sort
 
