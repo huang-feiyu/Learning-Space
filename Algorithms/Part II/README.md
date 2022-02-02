@@ -73,3 +73,9 @@ Enjoy your course.
 3. Baseball Elimination
 
 <img src="./img/baseballelimination.png" alt="baseballelimination" style="zoom:50%;" />
+
+4. Boggle
+
+95是GitHub上随便找的，实在很难优化——除非重写……
+
+![boggle](./img/boggle.png)
