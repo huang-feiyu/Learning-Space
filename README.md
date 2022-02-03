@@ -15,12 +15,15 @@
   * Algorithms: 算法 (Learning)
 * CMU(卡内基梅隆大学)
   * Introduction to Database: 数据库第一课，有点难 (待续未完)
+* NJU(南京大学)
+  * Introduction to Computer System: 计算机系统概述 (Learning)
 * Microsoft
-  * Data Science For Beginners: 数据科学纲要(Learning)
+  * Data Science For Beginners: 数据科学纲要 (Learning)
 * Other: 没有上过的课程或者其他的学习资料
   * RegEx-Learning:正则表达式学习笔记
-  * Awesome-Database-Learning：PingCAP开源的数据库学习指导
-  * Bash-Learning: Bash&Linux学习笔记
+  * Awesome-Database-Learning：PingCAP 开源的数据库学习指导
+  * Bash-Learning: Bash & Linux 学习笔记
+  * PingCAP: TiDB 课程
 * Probability-and-Statistics(本科课程已有详细学习，更高级的还用不上)
 
 ### 一些说明
