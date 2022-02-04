@@ -79,3 +79,7 @@ Enjoy your course.
 95是GitHub上随便找的，实在很难优化——除非重写……
 
 ![boggle](./img/boggle.png)
+
+5. Burrows Wheeler
+
+![Burrows](./img/burrowswheeler.png)
