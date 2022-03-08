@@ -20,7 +20,7 @@
 * UW(华盛顿大学)
   * Programming-Language: 程序设计语言 (Learning)
 * Microsoft
-  * Data Science For Beginners: 数据科学纲要 (Learning)
+  * Data Science For Beginners: 数据科学纲要 (待续未完)
 * Other: 没有上过的课程或者其他的学习资料
   * RegEx-Learning:正则表达式学习笔记
   * Awesome-Database-Learning：PingCAP 开源的数据库学习指导
@@ -33,5 +33,4 @@
 
 * 各个课程的README风格不太一样，课程的目录结构风格也不一样。
 * 有些文件因为不可描述的原因并不能够放在仓库之中。
-* 有些笔记太过凌乱，不会附在这里。——一般在我的`programLanguage`文件夹中。
-
+* 有些笔记太过凌乱，不会附在这里。——一般在我的`ProgramLanguage`文件夹中。
