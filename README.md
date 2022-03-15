@@ -8,17 +8,19 @@
 
 ### 课程
 
-* MIT(麻省理工学院)
+* MIT
   * Introduction to Computer Science: 计算机科学第一节课，用Python3.5编程 (Disuse)
   * The Missing Semester of Your CS Education: 计算机科学课程中缺少的课程，很不错 (完结)
-* PU(普林斯顿大学)
+* PU
   * Algorithms: 算法 (完结)
-* CMU(卡内基梅隆大学)
+* CMU
   * Introduction to Database: 数据库第一课，有点难 (待续未完)
-* NJU(南京大学)
+* NJU
   * Introduction to Computer System: 计算机系统概述 (Learning)
-* UW(华盛顿大学)
+* UW
   * Programming-Language: 程序设计语言 (Learning)
+* ZJU
+  * Computer-Organization-and-Design: 计算机组成与设计 (Learning)
 * Microsoft
   * Data Science For Beginners: 数据科学纲要 (待续未完)
 * Other: 没有上过的课程或者其他的学习资料
