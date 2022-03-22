@@ -29,7 +29,7 @@
   * Bash-Learning: Bash & Linux 学习笔记
   * DesignPattern: 设计模式学习笔记
   * PingCAP: TiDB 课程
-* Probability-and-Statistics(本科课程已有详细学习，更高级的还用不上)
+* Probability-and-Statistics (disuse)
 
 ### 一些说明
 
