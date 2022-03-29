@@ -19,9 +19,9 @@
   * Introduction to Computer System: 计算机系统概述 (完结)
 * UW
   * Programming-Language: 程序设计语言 (Learning)
-* ZJU
+* <s>ZJU</s>
   * Computer-Organization-and-Design: 计算机组成与设计 (Learning)
-    * Lab 为 cs61c
+    * Lab 为 cs61c，本课程仅根据 Slides、Textbook 与 Lab 进行学习。
 * Microsoft
   * Data Science For Beginners: 数据科学纲要 (待续未完)
 * Other: 没有上过的课程或者其他的学习资料
