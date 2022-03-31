@@ -43,3 +43,7 @@ vim configure: [Cornell CS312](http://www.cs.cornell.edu/courses/cs312/2006fa/so
 2. HW-2
 
 ![hw2](./img/hw2.png)
+
+3. HW-3
+
+![hw3](./img/hw3.png)
