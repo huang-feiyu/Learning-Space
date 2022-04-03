@@ -47,3 +47,9 @@ vim configure: [Cornell CS312](http://www.cs.cornell.edu/courses/cs312/2006fa/so
 3. HW-3
 
 ![hw3](./img/hw3.png)
+
+4. Quiz & Exam
+
+![quiz](./img/quiz.png)
+
+![exam](./img/exam.png)
