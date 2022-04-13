@@ -1,12 +1,16 @@
-https://www.coursera.org/learn/build-a-computer Part I
+# Nand2Tetris
 
-https://www.coursera.org/learn/nand2tetris2 Part II
+A Coursera course on compilation principles, computer composition principles, operating systems **without preconditions**. However, everyone can benefit from the course.
 
-https://github.com/woai3c/nand2tetris
+* [Part Ⅰ](https://www.coursera.org/learn/build-a-computer)
+    * [nand2tetris-verilog](https://github.com/jopdorp/nand2tetris-verilog)
+    * [OpenFPGA-Nand2Tetris](https://yodalee.me/2021/10/openfpga_nand2tetris/)
+* [Part Ⅱ](https://www.coursera.org/learn/nand2tetris2)
+* Textbook: *The Elements of Computing Systems*
 
-《The Elements of Computing Systems》 书籍
+由于很基础，本课程不做笔记，仅仅通过 Verilog, Risc-V, Java 将项目实现。主要目的是在脑海中构建一个基本的计算机框架与编程实践。（本课程能很好地将大二学期学习的东西衔接起来，给后面更深入的学习做铺垫）
 
-http://www.tudou.com/albumplay/s_GUUrXO1UQ/C483z4Z_APQ.html TED 演讲
+* [Part Ⅰ](./Part I/README.md): Nand to Hack
+    * 
 
-编译原理+计算机组成原理+操作系统
 
