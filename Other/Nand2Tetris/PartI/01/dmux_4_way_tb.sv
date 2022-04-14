@@ -19,14 +19,12 @@ module dmux_4_way_tb();
         else begin
             $error("dmux_4_way in: %b, select: %b, outputs (%b %b %b %b) expected (%b %b %b %b)",
                 in, select, a, b, c, d, a_exp, b_exp, c_exp, d_exp);
-
         end
     endtask
 
     initial
         begin
             select = 2'b00;
-
             #1 assert_else_error(1, 0, 0, 0);
 
             #1 select = 2'b01;
