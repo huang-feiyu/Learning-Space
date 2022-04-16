@@ -3,6 +3,8 @@
 
 本文档将会简单记录每一个 project 的结果与 debug 情况。同时，本项目不采用项目推荐的 Verilator ，转而使用 [Xilinx Vivado](https://www.xilinx.com/products/design-tools/vivado.html) 作为测试平台。（主要是因为学校课程下载之后，没有用过多少次）
 
+[TOC]
+
 ## Proj 0
 
 ```bash
@@ -24,4 +26,46 @@ iverilog hello_verilog_tb.sv -o hello
 * DMux4Way: ![HDL API & Gate Design](https://nand2tetris-hdl.github.io/img/dmux4.png)
 * DMux8Way: ![HDL API & Gate Design](https://nand2tetris-hdl.github.io/img/dmux8.png)
 
+---
+
 ![proj 1](README.img/image-20220414124836486.png)
+
+## Proj 2
+
+* Half Adder
+
+| A (input) | B (input) | C (output) | S (output) |
+| --------- | --------- | ---------- | ---------- |
+| 0         | 0         | 0          | 0          |
+| 1         | 0         | 0          | 1          |
+| 0         | 1         | 0          | 1          |
+| 1         | 1         | 1          | 0          |
+
+* Full Adder
+
+|  A   |  B   | Cin  | Sum  | Cout |
+| :--: | :--: | :--: | :--: | :--: |
+|  0   |  0   |  0   |  0   |  0   |
+|  0   |  0   |  1   |  1   |  0   |
+|  0   |  1   |  0   |  1   |  0   |
+|  0   |  1   |  1   |  0   |  1   |
+|  1   |  0   |  0   |  1   |  0   |
+|  1   |  0   |  1   |  0   |  1   |
+|  1   |  1   |  0   |  0   |  1   |
+|  1   |  1   |  1   |  1   |  1   |
+
+* 16-bit Adder
+
+![image-20220416184620846](README.img/image-20220416184620846.png)
+
+* 16-bit Incrementor
+
+![img](https://cdn.hackaday.io/images/6423141561507977935.jpg)
+
+* ALU
+
+![image-20220416195032258](README.img/image-20220416195032258.png)
+
+---
+
+![image-20220416211926547](README.img/image-20220416211926547.png)

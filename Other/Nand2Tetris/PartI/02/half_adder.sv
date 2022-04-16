@@ -4,12 +4,13 @@
 `define half_adder 1
 
 module half_adder(
-    input  a,
-    input  b,
-    output carry,
-    output sum
+  input  a,
+  input  b,
+  output carry,
+  output sum
 );
 
-    // Put your code here
+  xor_n2t #(1) xor_inst(a, b, sum);
+  and_n2t #(2) and_inst(a, b, carry);
 
 endmodule
