@@ -129,25 +129,30 @@
 
 ; (c)
 (define (ifeq e1 e2 e3 e4)
-  (mlet* (list (cons "_x" e1) (cons "_y" e2))
-  (ifgreater (var "_x") (var "_y") e4 (ifgreater (var "_y") (var "_x") e4 e3))))
+  (mlet*  (list (cons "_x" e1) (cons "_y" e2))
+          (ifgreater (var "_x") (var "_y")
+            e4
+            (ifgreater (var "_y") (var "_x")
+              e4
+              e3))))
 
 ;; Problem 4
 ; (a)
 ; call (call mupl-map (fun #f "x" (add (var "x") (int 7)))) (apair (int 1) (aunit))
 (define mupl-map
-  (fun "mupl-map" "map-fun"
+  (fun "map" "map-fun"
     (fun #f "lst"
       (ifaunit (var "lst")
         (aunit)
         (apair  (call (var "map-fun") (fst (var "lst")))
-                (call (call (var "mupl-map") (var "map-fun")) (snd (var "lst"))))))))
+                (call (call (var "map") (var "map-fun")) (snd (var "lst"))))))))
 
 ; (b)
 (define mupl-mapAddN
   (mlet "map" mupl-map
     (fun #f "i"
-      (call (var "map") (fun #f "x" (add (var "i") (var "x")))))))
+      (call (var "map") (fun #f "x"
+                          (add (var "i") (var "x")))))))
 
 ;; Challenge Problem
 
