@@ -13,6 +13,8 @@ module bit_n2t(
     output out
 );
 
-    // Put your code here
+    wire dff_in;
+    mux mux_load(out, in, load, dff_in);
+    dff dff_out(dff_in, clk, out);
 
 endmodule
