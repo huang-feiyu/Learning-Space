@@ -47,3 +47,7 @@ Search in VS Code Plugin Market, then install it. Set Racket Path in VSC Setting
 2. hw5
 
 ![hw5](./img/hw5.png)
+
+3. quiz
+
+![quiz](./img/quiz.png)
