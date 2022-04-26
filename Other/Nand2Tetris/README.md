@@ -8,9 +8,8 @@ A Coursera course on compilation principles, computer composition principles, op
 * [Part Ⅱ](https://www.coursera.org/learn/nand2tetris2)
 * Textbook: *The Elements of Computing Systems*
 
-由于很基础，本课程不做笔记，仅仅通过 Verilog, RISC-V, Java 将项目实现。主要目的是在脑海中构建一个基本的计算机框架与编程实践。（本课程能很好地将大二学期学习的东西衔接起来，给后面更深入的学习做铺垫）
+由于很基础，本课程不做笔记，仅仅通过 Verilog 将项目实现。主要目的是在脑海中构建一个基本的计算机框架与编程实践。（本课程能很好地将大二学期学习的东西衔接起来，给后面更深入的学习做铺垫）
 
 * [Part Ⅰ](./PartI/README.md): Nand to Hack
-    * [project 00](./PartI/README.md#proj-0)
-    * [project 01](./PartI/README.md#proj-1)
+* Part Ⅱ: 不做此作业
 
