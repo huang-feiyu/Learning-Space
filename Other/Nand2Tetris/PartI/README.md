@@ -92,3 +92,50 @@ iverilog hello_verilog_tb.sv -o hello
 ---
 
 ![image-20220421225037063](README.img/image-20220421225037063.png)
+
+## Proj 4
+
+似乎并没有该项目，而且没有测试代码，故跳过。让我写 RISC-V 和 x86 都行，但是并没有此版本提供。~~似乎是直接写机器码，看看再做。~~不做了。
+
+## Proj 5
+
+* CPU
+
+    * decoding the current instruction: `ixxaccccccdddjjj`
+
+        * `i` determines A-type or C-type the instruction is
+        * A-type: entire instruction is a 16-bit value that should be loaded at A-register
+        * C-type: `a-` `c-` bits `=>` *comp*; `d-` `=>` *dest*; `j-` `=>` *jump*
+
+    * exectuing the current instruction:
+
+        * C-type: 
+
+            `a-` determines whether the ALU will operate A register input or M input
+
+            `c-` determines which function the ALU will compute
+
+            `d-` determines which register should "accept" the resulting
+
+            `j-` are used for branching control
+
+    * deciding which instruction to fetch and execute next:
+
+        * `jjj`: [positive : zero : negative]
+
+
+    ![image-20220426094712252](README.img/image-20220426094712252.png)
+
+* Memory
+
+  ![image-20220426132309187](README.img/image-20220426132309187.png)
+
+* Computer
+
+    ![image-20220426134241395](README.img/image-20220426134241395.png)
+
+---
+
+本处并没有给 `cpu.sv` 的 testbench，因为存在位数不匹配。
+
+![image-20220426140634636](README.img/image-20220426140634636.png)

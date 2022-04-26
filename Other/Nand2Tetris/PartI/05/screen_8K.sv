@@ -10,9 +10,9 @@ module screen_8K(
   reg[15:0] memory[0:2**13-1] /* verilator public */;
 
   assign out = memory[address];
-	
+
   always @(posedge clock) begin
     if (load) memory[address] <= in;
   end
-  
+
 endmodule

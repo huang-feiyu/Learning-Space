@@ -6,11 +6,28 @@
 
 module computer(
     input  reset,
-    input clock
+    input  clock
 );
 
-  // Put your code here, hint: memory uses !clock.
-  // memory must be named memory, it has integration in the verilator compile script: memory memory(...
-  // rom_32K must be named rom, it has integration in the verilator compile script: rom_32K rom(...
+    wire [14:0] pc;
+    wire [15:0] instruction;
+    rom_32K rom_32k_inst(pc, instruction);
+
+    wire writeM;
+    wire [15:0] inM;
+    wire [15:0] outM;
+    wire [14:0] addressM;
+    cpu_jopdorp_optimized cpu_inst(
+        inM,
+        instruction,
+        reset,
+        clock,
+        outM,
+        writeM,
+        addressM,
+        pc
+    );
+
+    memory memory_inst(outM, clock, writeM, addressM, inM);
 
 endmodule
