@@ -17,11 +17,12 @@
   * Introduction to Database: 数据库第一课，有点难 (待续未完)
 * NJU
   * Introduction to Computer System: 计算机系统概述 (完结)
+  * Software Analysis: 软件分析 (after `PL`)
 * UW
   * Programming-Language: 程序设计语言 (Learning)
-* <s>ZJU</s> UCB
+* UCB
   * Computer-Organization-and-Design: 计算机组成与设计 (Learning)
-    * Lab 为 cs61c，本课程仅根据 Slides、Textbook 与 Lab 进行学习。
+    * Lab 为 cs61c，本课程仅根据 Slides、Textbook 与 Lab 进行学习
 * Other: 其他的课程或者学习资料
   * Nand2Tetris: 从与非门到俄罗斯方块
   * RegEx-Learning: 正则表达式学习笔记
