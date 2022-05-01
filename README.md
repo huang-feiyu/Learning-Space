@@ -21,16 +21,16 @@
   * Introduction to Computer System: 计算机系统概述 (完结)
   * Software Analysis: 软件分析 (after `PL`)
 * UW
-  * Programming-Language: 程序设计语言 (Learning)
+  * Programming Language: 程序设计语言 (Learning)
 * UCB
-  * Computer-Organization-and-Design: 计算机组成与设计 (Learning)
+  * Computer Organization and Design: 计算机组成与设计 (Learning)
     * Lab 为 cs61c，本课程仅根据 Slides、Textbook 与 Lab 进行学习
 * Other: 其他的课程或者学习资料
   * Nand2Tetris: 从与非门到俄罗斯方块
-  * RegEx-Learning: 正则表达式学习笔记
-  * Awesome-Database-Learning: PingCAP 开源的数据库学习指导
-  * Bash-Learning: Bash & Linux 学习笔记
-  * DesignPattern: 设计模式学习笔记
+  * RegEx Learning: 正则表达式学习笔记
+  * Awesome Database Learning: PingCAP 开源的数据库学习指导
+  * Bash Learning: Bash & Linux 学习笔记
+  * Design Pattern: 设计模式学习笔记
   * PingCAP: TiDB 课程
 * Microsoft
   * Data Science For Beginners: 数据科学纲要 (Disuse)
@@ -38,6 +38,6 @@
 
 ### 一些说明
 
-* 各个课程的README风格不太一样，课程的目录结构风格也不一样。
+* 各个课程的 README 风格不太一样，课程的目录结构风格也不一样。
 * 有些文件因为不可描述的原因并不能够放在仓库之中。
-* 有些笔记太过凌乱，不会附在这里。——一般在我的`ProgramLanguage`文件夹中。
+* 有些笔记太过凌乱，不会附在这里。——一般在本地的`ProgramLanguage`文件夹中。
