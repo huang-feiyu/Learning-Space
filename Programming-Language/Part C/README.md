@@ -26,3 +26,7 @@ Run Ruby within VSC: [StackOverflow](https://stackoverflow.com/questions/5491799
 
 ## Solution
 
+1. hw6
+
+![hw6](./img/hw6.png)
+
