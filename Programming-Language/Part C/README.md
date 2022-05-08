@@ -30,3 +30,7 @@ Run Ruby within VSC: [StackOverflow](https://stackoverflow.com/questions/5491799
 
 ![hw6](./img/hw6.png)
 
+2. hw7
+
+![hw7](./img/hw7.png)
+
