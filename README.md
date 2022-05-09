@@ -20,8 +20,9 @@
     TODO: 将本目录作为一个全新的仓库/proj
 * NJU
   * Introduction to Computer System: 计算机系统概述 (完结)
-  * Software Analysis: 软件分析 (Learning)
+  * Software Analysis: 软件分析 (after `software-construction`)
 * UCB
+  * Data Structures: 数据结构和算法 (Learning)
   * Computer Organization and Design: 计算机组成与设计 (Learning)
     * Lab 为 cs61c，本课程仅根据 Slides、Textbook 与 Lab 进行学习
 * UW
