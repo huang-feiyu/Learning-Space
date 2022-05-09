@@ -17,6 +17,7 @@
 * CMU
   * CSAPP: 深入理解计算机系统 (after `cs61c`)
   * Introduction to Database: 数据库第一课，有点难 (待续未完)
+    TODO: 将本目录作为一个全新的仓库/proj
 * NJU
   * Introduction to Computer System: 计算机系统概述 (完结)
   * Software Analysis: 软件分析 (Learning)
@@ -39,6 +40,6 @@
 ### 一些说明
 
 * 各个课程的 README 风格不太一样，课程的目录结构风格也不一样。
+* 有些课程的作业由于比较庞大，是一个整体，我会新建一个仓库去记录。
 * 有些文件因为不可描述的原因并不能够放在仓库之中。
 * 有些笔记太过凌乱，不会附在这里。——一般在本地的`ProgramLanguage`文件夹中。
-* 有些课程的作业由于比较庞大，是一个整体，我会新建一个仓库去记录。
