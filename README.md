@@ -9,9 +9,9 @@
 ### 课程
 
 * MIT
-  * Introduction to Computer Science: 计算机科学第一节课，用Python3.5编程 (Disuse)
-  * The Missing Semester of Your CS Education: 计算机科学课程中缺少的课程，很不错 (完结)
-  * Software Construction: 软件建构 (after `PL`)
+  * Introduction to Computer Science: 计算机科学第一节课 (Disuse)
+  * The Missing Semester of Your CS Education: 计算机科学课程中缺少的课程 (完结)
+  * Software Construction: 软件建构 (Learning)
 * PU
   * Algorithms: 算法 (完结)
 * CMU
@@ -19,12 +19,12 @@
   * Introduction to Database: 数据库第一课，有点难 (待续未完)
 * NJU
   * Introduction to Computer System: 计算机系统概述 (完结)
-  * Software Analysis: 软件分析 (after `PL`)
-* UW
-  * Programming Language: 程序设计语言 (Learning)
+  * Software Analysis: 软件分析 (Learning)
 * UCB
   * Computer Organization and Design: 计算机组成与设计 (Learning)
     * Lab 为 cs61c，本课程仅根据 Slides、Textbook 与 Lab 进行学习
+* UW
+  * Programming Language: 程序设计语言 (完结)
 * Other: 其他的课程或者学习资料
   * Nand2Tetris: 从与非门到俄罗斯方块
   * RegEx Learning: 正则表达式学习笔记

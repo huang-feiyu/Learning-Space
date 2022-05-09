@@ -34,3 +34,14 @@ Run Ruby within VSC: [StackOverflow](https://stackoverflow.com/questions/5491799
 
 ![hw7](./img/hw7.png)
 
+3. quiz & exam
+
+No quiz result, because I do not want to do this.(Maybe a little afraid of the lack of previous knowledge)
+
+## End
+
+After taking `PL` course, I am confident to learn new languages. I hope to learn a lot of programming languages, such as: Elixir, Go, Rust, etc.
+
+There is a long way to go. (As far as I know, *Programming Language* benifits from *Philosophy of language*.)
+
+![Ludwig Wittgenstein](https://upload.wikimedia.org/wikipedia/commons/6/60/35._Portrait_of_Wittgenstein.jpg)
