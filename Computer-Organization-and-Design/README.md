@@ -1,8 +1,8 @@
 # 计算机组成与设计 (RISC-V)
 
-浙大课程水平堪忧，不再上课。在本目录下为 [cs61c](https://inst.eecs.berkeley.edu/~cs61c/su20/) 实验部分，将根据 [Slides](./Slides) 与[教材](https://book.douban.com/subject/34658252/)进行学习实现。
+> UC Berkeley cs61c: labs & projs
 
-实现仓库为 private，位于 [cs61c](https://github.com/huang-feiyu/cs61c)。
+Everything is in the [labs](./Labs).
 
 ---
 
