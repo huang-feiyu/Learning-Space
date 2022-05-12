@@ -116,3 +116,118 @@ public class MaxTest {
 
 Use git, anyway.
 
+
+## Reading 6: Specifications
+
+> Specifications are the linchpin of teamwork.
+
+* Behavioral equivalence: in the client's eyes, that is: two programs should behave the same under the same(specific) conditions
+* Why specifications
+  * to make sure the team mates are working on the same thing
+  * give the freedom to change the implementation without telling clients
+* Specification structure: form the *precondition* and *postcondition*
+  * a method signature
+  * a requires clause: additional restrictions on the parameters
+  * an effects clause: return value, exceptions, and other effects
+* Specifications in Java: javadoc
+* `null` references: an unfortunate hole in Java
+  * `@NonNull` to forbid `null` directly
+  * in fp, we use `Optional<T>` to represent `null`
+* Testing and specifications
+  * glass box test must follow the specification
+  * Testing units: A test unit is focused on just a signle spec; integration test must make sure out different methods have compatible specs
+* Specifications for mutating methods: add one more line `effects`
+* Exceptions
+  * for signaling bugs: indicate bugs
+  * for special results: imporeve the structure of the code that involves functions with special results
+  * checked and unchecked exceptions: handle or not, compiler accepts or not, !runtime or not
+* Exceptions in Specification
+  * checked exception: `@throws` AND the method signature
+  * unchecked exception: only `@throws`
+  * special: `NullPointerException` will never be mentioned in a spec, it is an implicit precodition
+
+## Reading 7: Designing Sepcifications
+
+> 3D: deterministic, declarative, strong
+
+Trade-off
+
+* Deterministic vs. Undetermined: a deterministic program behave in exactly one way
+* Declarative vs. Operational:
+  * Declarative: just give properties of the final outcome, and no code
+  * Operational: give a series of steps that the method performs
+* Strong vs. Weak: Comes from predicate logic
+* Designing good specifications:
+  * coherent
+  * result should be informative
+  * strong
+  * weak enough to avoid that sth is not guaranteed
+  * use `abstract` types where possible
+* Precondition or postcondition:
+  * precondition: to demand a property(hard/expensive for a method to check) precisely
+  * postcondition: it's better to **fail fast**
+* Access control: keep internal things `private`; anyway use `private` when possible
+* `static` or instance:
+  * `static` are not associated with any object
+  * `instance` are associated with objects
+
+## Reading 8: Mutability and Immutability
+
+* Immutability: once created, always the same value
+* Mutability: once created, can be changed
+  * Optimizing performance to use mutable objects
+  * Convenient sharing: 2 parts of program can communicate by sharing mutable objects
+* Risks of mutation: Aliasing is what makes mutable types risky
+  * passing mutable values
+  * returning mutable values
+* Spec for mutating methods: only if explicitly say that input can be mutated, you can mutate it
+* Iterating: `Interator<>().next()` is a mutator method
+* Mutation and contracts
+  * Mutable objects can make simple contracts very complex
+  * Mutable objects reduce changeability
+* Immutability
+  * Optimization: sharing the unchanged object to avoid copying all
+  * Useful immutable types: avoid so many pitfalls
+
+## Reading 9: Avoiding Debugging
+
+* make bugs impossible by design
+  * static checking
+  * dynamic checking
+  * Immutability
+  * use `final` or as many local variables as possible
+* localize bugs
+  * fail fast
+  * defensive programming
+* Assertions
+  * `assert x >= 0 : "x is " + x`
+  * `java -ea` to enable assertion
+  * In programs and UnitTests
+  * assert: argument requirements and return value requirements
+  * external failures are not bugs
+  * have no *side-effects*
+* Incremental development: build only a bit of program at a time, and test that bit thoroughly before moving on to the next bit
+* Modularity and encapsulation: access control, variable scope
+  * Modularity: diving up a system into components/modules, each of which is independent and can be tested independently
+  * Encapsulation: building walls around a module so that the module is responsible for its own internal bechavior
+
+## Reading 10: Abstract Data Types
+
+> Abstract data types: a type that is not concrete to avoid that clients making assumptions about the type's internal representation
+
+* ADT
+  * **Abstration**
+  * Modularity
+  * Encapsulation
+  * Information hiding
+  * Separation of concerns
+* User-defined types
+  * a type characterized by the operations you can perform on it
+* Classifying types and operations
+  * Creators: `t* -> T`
+  * Producers: `T+, t* -> T`
+  * Observers: `T+, t* -> t`
+  * Mutators: `T+, t* -> void |t| T`
+* ADT is defined by its opeartions
+* Designing an abstract type: no domain-specific features; a few but adequate, simple and coherent operations;
+* Representation independence: the use of an ADT is independent of the representation(actual data structure or data fields used to implement it) of the ADT
