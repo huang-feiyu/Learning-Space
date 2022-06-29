@@ -1,5 +1,7 @@
 # Note 1-10
 
+> [Software Construction](http://web.mit.edu/6.031/www/sp21/)
+
 [TOC]
 
 ## Reading 1: Static Checking

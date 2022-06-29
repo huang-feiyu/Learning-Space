@@ -2,27 +2,27 @@
 
 该仓库包含我在网络上学习的课程的一些笔记和资源。
 
-> 互联网最初的目的是用于学术、军事的信息交换，后来互联网连接了整个世界，于是互联网的目的也变了。
+> 互联网最初的目的是用于学术、军事的信息交换，后来互联网连接了整个世界，于是互联网的目的也变了。<br/>——[Huang](https://huang-feiyu.github.io)
 >
-> ——[Huang](https://huang-feiyu.github.io)
+> 另外，由于最开始我并没有了解 GitHub & Git 的仓库范式，使得本仓库 commit 信息很乱。不过这并不重要，只需要以 master 的最新分支为标准就行。
 
 ### 课程
 
 * MIT
-  * Introduction to Computer Science: 计算机科学第一节课 (Disuse)
+  * Introduction to Computer Science: 计算机科学第一节课 (完结)
   * The Missing Semester of Your CS Education: 计算机科学课程中缺少的课程 (完结)
   * Software Construction: 软件建构 (Learning)
 * PU
   * Algorithms: 算法 (完结)
 * CMU
-  * CSAPP: 深入理解计算机系统 (learning)
+  * CSAPP: 深入理解计算机系统 (after `soft-analysis`)
   * Introduction to Database: 数据库第一课，有点难 (待续未完)
     TODO: 将本目录作为一个全新的仓库/proj
 * NJU
   * Introduction to Computer System: 计算机系统概述 (完结)
-  * Software Analysis: 软件分析 (after `software-construction`)
+  * Software Analysis: 软件分析 (learning)
 * UCB
-  * Data Structures: 数据结构和算法 (Learning)
+  * Data Structures: 数据结构和算法 (待续未完)
   * Computer Organization and Design: 计算机组成与设计 (完结)
     * Lab 为 cs61c，本课程仅根据 Slides、Textbook 与 Lab 进行学习
 * UW
