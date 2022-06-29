@@ -4,5 +4,6 @@
 
 * Website: [课程主页](https://tai-e.pascal-lab.net/lectures.html)
 * Assignment: [GitHub](https://github.com/pascal-lab/Tai-e-assignments)
+* Videos: [Bilibili](https://www.bilibili.com/video/BV1b7411K7P4)
 
-——to be continue
+![Assignments](https://tai-e.pascal-lab.net/over-fig.svg)
