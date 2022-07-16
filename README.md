@@ -15,14 +15,13 @@
 * PU
   * Algorithms: 算法 (完结)
 * CMU
-  * CSAPP: 深入理解计算机系统 (after `soft-analysis`)
-  * Introduction to Database: 数据库第一课，有点难 (待续未完)
-    TODO: 将本目录作为一个全新的仓库/proj
+  * CSAPP: 深入理解计算机系统 (learning)
+  * Introduction to Database: 数据库第一课，有点难 (待续未完)<br/>TODO: 将本目录作为一个全新的仓库/proj
 * NJU
   * Introduction to Computer System: 计算机系统概述 (完结)
   * Software Analysis: 软件分析 (learning)
 * UCB
-  * Data Structures: 数据结构和算法 (待续未完)
+  * Data Structures: 数据结构和算法 (Disuse)
   * Computer Organization and Design: 计算机组成与设计 (完结)
     * Lab 为 cs61c，本课程仅根据 Slides、Textbook 与 Lab 进行学习
 * UW
