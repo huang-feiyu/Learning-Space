@@ -20,6 +20,7 @@
 * NJU
   * Introduction to Computer System: 计算机系统概述 (完结)
   * Software Analysis: 软件分析 (learning)
+  * Operating System: 操作系统 (After CSAPP)
 * UCB
   * Data Structures: 数据结构和算法 (Disuse)
   * Computer Organization and Design: 计算机组成与设计 (完结)
