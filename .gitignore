@@ -1,0 +1,9 @@
+# 较大的文件
+Introduction-to-Algorithms/MIT-6046J/Resources/算法导论（原书第3版）.pdf
+Introduction-to-Database/CMU15445/Resources/*.pdf
+Introduction-to-Database/CMU15445/Resources/c++/*.zip
+Introduction-to-Database/CMU15445/Resources/c++/*.pdf
+
+# Obsidian
+.obsidian
+.obsidian.vimrc
