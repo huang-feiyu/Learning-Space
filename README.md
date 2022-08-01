@@ -8,18 +8,19 @@
 
 ### 课程
 
-课程后有 \* 标志表示: 课程资源全部在此仓库中.
+1. 课程后有 \* 标志表示: 课程资源全部在此仓库中.
+2. 课程后有 + 标志表示: 一部分课程资源在此仓库中.
 
 * MIT
   * The Missing Semester of Your CS Education\*: 计算机科学课程中缺少的课程 (完结)
-  * Software Construction: 软件建构 (完结)
+  * Software Construction+: 软件建构 (完结)
 * PU
   * Algorithms\*: 算法 (完结)
 * CMU
   * CSAPP: 深入理解计算机系统 (learning)
   * Introduction to Database: 数据库第一课, 有点难 (待续未完)<br/>TODO: 将本目录作为一个全新的仓库/proj
 * NJU
-  * Introduction to Computer System: 计算机系统概述 (完结)
+  * Introduction to Computer System+: 计算机系统概述 (完结)
   * Software Analysis: 软件分析 (learning)
   * Operating System: 操作系统 (After CSAPP)
 * UCB

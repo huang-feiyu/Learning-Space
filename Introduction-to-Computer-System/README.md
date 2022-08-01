@@ -16,10 +16,9 @@
 * [计算机系统基础(三)：异常、中断和输入/输出](https://www.icourse163.org/course/NJU-1002532004#/info)
 * [计算机系统基础(四)：编程与调试实践](https://www.icourse163.org/course/NJU-1449521162)
 * [计算机系统基础(五)：x86模拟器编程实践](https://www.icourse163.org/learn/NJU-1464941173?tid=1465849463#/learn/announce)
-  * GitHub: [实验地址](https://github.com/ics-nju-wl/icspa-public-guide) 说白了，我就是想要做一下实验。这方面感觉南大走在了国内的前沿。
+  * GitHub: [实验地址](https://github.com/ics-nju-wl/icspa-public-guide)
 
 ## 实验
 
-有关于指导书 guide，存在许多笔误，我在自己的仓库中作过修改。
+Everything is in [intro2computer-system-lab](https://github.com/huang-feiyu/intro2computer-system-lab).
 
-有关于实验 lab，我本想将自己的代码 post 出来，但是明令禁止不要这么做，我就放在了私人仓库中。
