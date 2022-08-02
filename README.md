@@ -33,6 +33,7 @@
   * Design Pattern: 设计模式学习笔记
   * PingCAP: TiDB 课程
 * Difficult-Concepts
+  * Double Dispatch
 * Disue (弃用)
   * Introduction to Computer Science: 计算机科学第一节课
   * Data Structures: 数据结构和算法
