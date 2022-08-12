@@ -147,3 +147,23 @@ int sigprocmask(int how, const sigset_t *set, sigset_t *oldset);
     * Cannot use signal to count events in other process
 * Protablility
     * Use `Signal()` - Wrapper of `sigaction()`
+
+## Error Handling
+
+C programming language provides a user-level error handling mechanism, called
+*nonlocal jump*.
+
+`setjmp` is similar to `catch`, `longjmp` is similar to `longjmp`.
+
+`setjmp` call once, return mutiple times. `longjmp` do not return.
+
+```c
+#include <setjmp.h>
+
+int setjmp(jmp_buf env);
+void longjmp(jmp_buf env, int retval);
+
+// signal handler version
+int sigsetjmp(sigjmp_buf env, int savesigs);
+void siglongjmp(sigjmp_buf env, int retval);
+```
