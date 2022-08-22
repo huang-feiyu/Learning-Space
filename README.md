@@ -15,12 +15,12 @@
 * PU
   * Algorithms\*: 算法 (完结)
 * CMU
-  * CSAPP: 深入理解计算机系统 (Learning)
+  * CSAPP: 深入理解计算机系统 (完结)
   * Introduction to Database: 数据库系统导论 (After OS)
 * NJU
   * Introduction to Computer System+: 计算机系统概述 (完结)
-  * Software Analysis: 软件分析 (Learning)
-  * Operating System: 操作系统 (After CSAPP)
+  * Software Analysis: 软件分析 (完结)
+  * Operating System: 操作系统 (Learning)
 * UCB
   * Computer Organization and Design: 计算机组成与设计 (完结)
 * UW
