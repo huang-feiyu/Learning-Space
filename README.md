@@ -35,6 +35,7 @@
 * Technical Blog
   * Double Dispatch
   * Signal (ECF Notes from CSAPP)
+  * Shell
 * Paper Reading
   * Architecture of a Database System [fntdb07]
 * Disue (弃用)
