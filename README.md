@@ -39,7 +39,7 @@
   * Shell
 * Paper Reading
   * Architecture of a Database System [fntdb07]
-* Disue (弃用)
+* Disuse (弃用)
   * Introduction to Computer Science: 计算机科学第一节课
   * Data Structures: 数据结构和算法
   * Data Science For Beginners: 数据科学纲要
