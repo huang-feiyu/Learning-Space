@@ -26,6 +26,8 @@
   * Computer Organization and Design: 计算机组成与设计 (完结)
 * UW
   * Programming Language\*: 程序设计语言 (完结)
+* Standford
+  * Cryptography I: 密码学基础 (Learning)
 * Other: 其他的课程或者学习资料
   * Nand2Tetris: 从与非门到俄罗斯方块
   * RegEx Learning: 正则表达式学习笔记
