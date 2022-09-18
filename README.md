@@ -17,7 +17,7 @@
   * Algorithms\*: 算法 (完结)
 * CMU
   * CSAPP: 深入理解计算机系统 (完结)
-  * Introduction to Database: 数据库系统导论 (After NJU OS)
+  * Introduction to Database: 数据库系统 (Learning)
 * NJU
   * Introduction to Computer System+: 计算机系统概述 (完结)
   * Software Analysis: 软件分析 (完结)

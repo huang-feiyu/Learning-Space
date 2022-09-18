@@ -12,5 +12,5 @@
 * [gradescope](https://www.gradescope.com)
 * Extra assignment [B+ Tree](https://15445.courses.cs.cmu.edu/fall2020/project2/)
 
--- **To be continue, from the very start.**
+**Everything in [bustub-labs](https://github.com/huang-feiyu/bustub-labs)**.
 
