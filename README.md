@@ -12,7 +12,7 @@
 * MIT
   * The Missing Semester of Your CS Education\*: 计算机科学课程中缺少的课程 (完结)
   * Software Construction+: 软件建构 (完结)
-  * Operating System Engineering: 操作系统 (Learning)
+  * Operating System Engineering: 操作系统 (完结)
 * PU
   * Algorithms\*: 算法 (完结)
 * CMU
