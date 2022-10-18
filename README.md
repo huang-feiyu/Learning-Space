@@ -8,25 +8,32 @@
 
 1. 课程后有 \* 标志表示: 课程资源全部在此仓库中.
 2. 课程后有 + 标志表示: 一部分课程资源在此仓库中.
+3. 课程后有 ✅ 标志表示: 推荐学习
 
 * MIT
   * The Missing Semester of Your CS Education\*: 计算机科学课程中缺少的课程 (完结)
   * Software Construction+: 软件建构 (完结)
-  * Operating System Engineering: 操作系统 (完结)
+  * Operating System Engineering: 操作系统 (完结) ✅
+  * Distributed System Engineering: 分布式系统 (After CSE138)
 * PU
   * Algorithms\*: 算法 (完结)
 * CMU
-  * CSAPP: 深入理解计算机系统 (完结)
-  * Introduction to Database: 数据库系统 (完结)
+  * CSAPP: 深入理解计算机系统 (完结) ✅
+  * Introduction to Database: 数据库系统 (完结) ✅
 * NJU
   * Introduction to Computer System+: 计算机系统概述 (完结)
   * Software Analysis: 软件分析 (完结)
-  * Operating System: 操作系统 (完结)
+  * Operating System: 操作系统 (完结) ✅
 * UCB
-  * Computer Organization and Design: 计算机组成与设计 (完结)
+  * Computer Organization and Design: 计算机组成与设计 (完结) ✅
 * UW
   * Programming Language\*: 程序设计语言 (完结)
-* Standford
+* UCSC
+  * Distributed Systems: 分布式系统 (Learning)
+* USTC
+  * Computer Networking: 计算机网络：自顶向下方法 (TODO)
+* Stanford
+  * Computer Network: 计算机网络 (TODO)
 * Other: 其他的课程或者学习资料
   * Nand2Tetris: 从与非门到俄罗斯方块
   * RegEx Learning: 正则表达式学习笔记
