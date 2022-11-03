@@ -14,7 +14,7 @@
   * The Missing Semester of Your CS Education\*: 计算机科学课程中缺少的课程 (完结)
   * Software Construction+: 软件建构 (完结)
   * Operating System Engineering: 操作系统 (完结) ✅
-  * Distributed System Engineering: 分布式系统 (After CSE138)
+  * Distributed System Engineering: 分布式系统 (Learning)
 * PU
   * Algorithms\*: 算法 (完结)
 * CMU
@@ -23,15 +23,17 @@
 * NJU
   * Introduction to Computer System+: 计算机系统概述 (完结)
   * Software Analysis: 软件分析 (完结)
-  * Operating System: 操作系统 (完结) ✅
+  * Operating System: 操作系统 (2021 完结 & 2022 Learning) ✅
 * UCB
   * Computer Organization and Design: 计算机组成与设计 (完结) ✅
 * UW
   * Programming Language\*: 程序设计语言 (完结)
 * UCSC
-  * Distributed Systems: 分布式系统 (Learning)
+  * Distributed Systems: 分布式系统 ✅
 * USTC
   * Computer Networking: 计算机网络：自顶向下方法 (TODO)
+* CalTech
+  * Database Systems: NanoDB Assignments (Learning)
 * Stanford
   * Computer Network: 计算机网络 (TODO)
 * Other: 其他的课程或者学习资料
