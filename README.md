@@ -19,9 +19,7 @@ content presented below will be in English.
 ### Mathematics
 
 * Caculus: Single Variable Calculus
-    * [ ] [MIT 18.01.1](https://www.edx.org/course/calculus-1a-differentiation): Differentiation
-    * [ ] [MIT 18.01.2](https://www.edx.org/course/calculus-1b-integration): Integration
-    * [ ] [MIT 18.01.3](https://www.edx.org/course/calculus-1c-coordinate-systems-infinite-series): Coordinate Systems & Infinite Series
+    * [ ] [MIT 18.01](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/)
 * Caculus: Multivariable Calculus
     * [ ] [MIT 18.02](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/)
 * Linear Algebra
