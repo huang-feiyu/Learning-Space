@@ -18,9 +18,9 @@ content presented below will be in English.
 
 ### Mathematics
 
-* Caculus: Single Variable Calculus
+* Calculus: Single Variable Calculus
     * [ ] [MIT 18.01](https://ocw.mit.edu/courses/18-01sc-single-variable-calculus-fall-2010/)
-* Caculus: Multivariable Calculus
+* Calculus: Multivariable Calculus
     * [ ] [MIT 18.02](https://ocw.mit.edu/courses/18-02sc-multivariable-calculus-fall-2010/)
 * Linear Algebra
     * [ ] [MIT 18.06](https://ocw.mit.edu/courses/18-06sc-linear-algebra-fall-2011/pages/syllabus/)
